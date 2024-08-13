@@ -2,3 +2,30 @@
 .foto  {
     padding: 0px 0px;
 }
+.foto div img{
+    width: 520px;
+}
+.forButton {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    position: fixed;
+    left: 1;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 480px) {
+.forButton {
+    width: 100%;
+}
+button {
+    width: 50%;
+}
+.foto div img{
+    width: 100%;
+}
+}
